@@ -1,0 +1,218 @@
+
+/* CSS Document */
+#lpu
+{
+height:100px;
+width:80px;
+background-image:url(../../github/1.jpg);
+background-size:cover;
+float:left;
+/*position:fixed;
+left:0px;
+top:0px;*/
+}
+#box
+{
+height:100px;
+width:1242px;
+background-image:url(../../github/lovely.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+float:left;
+/*position:fixed;
+left:0px;
+top:0px;*/
+}
+
+#box1
+{
+height:80px;
+width:592px;
+background-image:url(../../github/butterfly.jpeg);
+border:7px groove #666;
+float:left;
+clear:both;
+/*position:fixed;
+left:0px;
+top:0px;*/
+}
+.parent,.child,.child1,.child2,.child3,.child4
+{
+list-style:none;	
+}
+.parent li
+{
+float:left;	
+/*margin:10px;*/
+}
+.child
+{
+position:absolute;	
+display:none;
+}
+.child li
+{
+clear:both;
+}
+.child1
+{
+position:absolute;	
+display:none;
+}
+.child1 li
+{
+clear:both;
+}
+.child2
+{
+position:absolute;	
+display:none;
+}
+.child2 li
+{
+clear:both;
+}
+.child3
+{
+position:absolute;	
+display:none;
+}
+.child3 li
+{
+clear:both;
+}
+.child4
+{
+position:absolute;	
+display:none;
+}
+.child4 li
+{
+clear:both;
+}
+.parent li a
+{
+text-decoration:none;
+background-color:#999;
+padding:10px;
+color:black;
+display:inline-block;	
+}
+.parent li a:hover
+{
+background-color:#09F;
+border-bottom:2px groove #F00;
+}
+.parent li:hover .child
+{
+display:block;	
+}
+.parent li:hover .child1
+{
+display:block;	
+}
+.child li:hover .child2
+{
+display:block;	
+}
+.child li:hover .child3
+{
+display:block;	
+}
+.child li:hover .child4
+{
+display:block;	
+}
+.child li:hover .child4
+{
+display:block;	
+}
+#box2
+{
+height:230px;
+width:300px;
+background-color:#CCC;
+border:5px ridge black;
+mergin-top:80px;
+float:left;
+clear:both;
+
+}
+#box3
+{
+height:230px;
+width:285px;
+background-color:#CCC;
+border:5px ridge black;
+mergin-top:80px;
+float:left;
+}
+#box4
+{
+height:238px;
+width:590px;
+background-color:#516F6D;
+border:8px groove black;
+clear:both;
+float:left;
+}
+.a1
+{
+color:blue;
+}
+#box6
+{
+height:400px;;
+width:730px;
+background-image:url(../../github/lpu.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+float:right;
+clear:left;
+/*position:fixed;
+left:0px;
+top:0px;*/
+}
+#lpu1
+{
+height:80px;
+width:725px;
+background-color:#CCC;
+background-repeat:no-repeat;
+background-size:cover;
+float:right;
+clear:left;
+/*position:fixed;
+left:0px;
+top:0px;*/
+}
+#box5
+{
+height:400px;
+width:592px;
+background-color:#FCF;
+border:5px solid #666;
+clear:left;
+float:left;
+}
+.d
+{
+color:#366;
+}
+.d1
+{
+color:#966;
+}
+.d2
+{
+color:#333;
+}
+.d3
+{
+color:#636;
+}
+.d4
+{
+color:#330;
+}
+
